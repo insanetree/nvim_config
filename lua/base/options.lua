@@ -8,7 +8,7 @@ vim.opt.fileencoding = "utf-8"
 vim.opt.hlsearch = true
 vim.opt.ignorecase = true
 vim.opt.list = true
--- vim.o.listchars = 'tab:>,lead:-,nbsp:+'                      -- Doesn't work for some reason
+vim.opt.listchars = {tab="> ", lead="-", nbsp="+", trail="-"}
 vim.opt.mouse = "a"
 vim.opt.number = true
 vim.opt.pumheight = 15
